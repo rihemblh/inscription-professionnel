@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const description = form.querySelector('textarea[name="message"]').value;
 
         try {
-            const response = await fetch('http://localhost:3001/api/logupb2b', {
+            const response = await fetch('https://wic-doctor.com:3004/api/logupb2b', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
