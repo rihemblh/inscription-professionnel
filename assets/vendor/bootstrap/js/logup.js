@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 throw new Error(data.error || 'Une erreur est survenue lors de l\'inscription.');
             }
 
-            alert('Inscription réussie ! ' + data.message); // Show success message
+           // alert('Inscription réussie ! ' + data.message); // Show success message
             form.reset(); // Reset the form after submission
 
         } catch (error) {

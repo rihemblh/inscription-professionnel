@@ -13,7 +13,7 @@
       let recaptcha = thisForm.getAttribute('data-recaptcha-site-key');
       
       if( ! action ) {
-        displayError(thisForm, 'Demande de renseignement envoyé avec succées.');
+        displayError(thisForm, 'Demande d\'inscription envoyée avec succès !');
         return;
       }
       thisForm.querySelector('.loading').classList.add('d-block');
